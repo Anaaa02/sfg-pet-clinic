@@ -4,6 +4,7 @@ public class Person {
 
     private String firstNAme;
     private String lastName;
+    private int year;
 
     public String getFirstNAme() {
         return firstNAme;
@@ -19,5 +20,13 @@ public class Person {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
     }
 }
